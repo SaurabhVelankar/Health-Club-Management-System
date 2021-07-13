@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ADD_MEMBER</title>
+<link rel="stylesheet" type"text/css" href="add_member_style.css">
+<script src="validation.js"></script>
+</head>
+<body>
+	<header>
+		<div class="main">
+            <div class="logo">
+                <img src="download.jpg">
+            
+            </div>
+               
+                <div class="content">
+                    <a href="index.html" id="home_btn" ><img src="icons8-home-64.png"><br>HOME</a>
+
+                    <h1 style="text-align: center;">Add Member</h1>   
+                    <h2 style="text-align: center;">Enter Details</h2>
+                        <div class="para">
+                            
+                            <form name="myform" action="#" method="get" onsubmit="return validation()">
+                                
+                                <p style="font-size:125%">Name (required)</p>
+                                <input type="text" placeholder="Enter Full Name" required>
+                                
+                                
+                                <p style="font-size:125%">Phone Number(required)</p>
+                                <input type="tel" placeholder="Enter With Country Code" required>
+                                
+                                <p style="font-size:125%">Address</p>
+                                <textarea placeholder="Enter Complete Address"></textarea>
+                                
+                                <p  style="font-size:125%" name="age">Age</p>
+                                <input>
+                                
+                                <p style="font-size:125%">Gender</p>
+								<br>
+                                <input style="float:left" id="male" type="radio" name="gender">
+								<label for="male">HTML</label><br>
+								<br>
+                                <input id="female" type="radio" name="gender">
+								<label for="female">Female</label><br>
+								<br>
+                                <input id="other" type="radio" name="gender">
+								<label for="other">Other</label><br>
+                                
+                                <p style="font-size:125%">Plan Name(required)</p>
+                                <input placeholder="Calisthenics" required>
+                                
+                                <p style="font-size:125%">Start Date(required)</p>
+                                <input type="date" required>
+                                
+                                <p style="font-size:125%">End Date</p>
+                                <input type="date">
+                                
+                                <p>(*Required Data must be Filled)</p>
+                                <input type="submit" class="submit-btn">
+                                
+                                <input type="reset" id="resetbtn">
+
+                            </form>
+                            </div>                
+        			
+                </div>
+                
+                
+        </div>  
+</body>
+</html>

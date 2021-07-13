@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(919741-free-muscle-man-wallpapers-2560x1440-download.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.logo img
+{
+    float: left;
+    background-color: gray;
+    width:150px;    
+}
+.main
+{
+     marign:auto;
+}
+.content
+{
+    color:white;
+    }
+.content ul
+{
+    list-style:none;
+    position: absolute;
+
+    top:180px;
+    left:43%;
+
+}
+.content h1
+{
+    text-align:center; 
+    font-size: 80px;
+    font-style: italic;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    font-weight:bold;
+    
+    
+}
+.content ul li
+{
+    margin-top:60px;
+    text-align: center;
+    
+}
+.content ul li a
+{
+    
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border:2px groove;
+    border-radius: 1px;
+    font-weight:bold;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.content ul li a:hover
+{
+    background-color: white;
+    color: black;
+}
+#home_btn
+{
+    float: right;
+    padding: 15px;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
